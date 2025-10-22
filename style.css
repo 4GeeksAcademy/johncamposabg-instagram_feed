@@ -9,10 +9,6 @@ body {
     background-color: rgb(250, 250, 250);
     width: 40%;
     border-radius: 10px;
-    background-image: url("https://raw.githubusercontent.com/breatheco-de/exercise-postcard/e63a7916530cc850bd92aa1c2e19191837fb5c80/.learn/assets/4geeks.png");
-    background-repeat:repeat;
-    background-size: auto;
-    background-position: top left;
 }
 .headerpost {
     display: flex;
@@ -26,7 +22,7 @@ body {
 }
 .icon2{
     font-size: 30px;
-    color:rgb(136, 136, 136);
+    color:rgb(49, 49, 49);
 }
 .menu:hover{
     color: rgb(0, 0, 0);
@@ -64,11 +60,12 @@ margin-right: auto;
     transform: scale(1.2);
 }
 .footer{
+    text-align: justify;
     font-family: "Alan Sans", sans-serif;
-    padding: 10px;
+    padding: 20px;
     padding-top: 0px;
     background-color: rgb(255, 255, 255);
 }
 .likes{
-    margin:0%;
+    margin-top:0%;
 }
